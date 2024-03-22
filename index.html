@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Previsão do Tempo</h1>
+        <div class="input-group">
+            <input type="text" id="city" placeholder="Digite o nome da cidade">
+            <input type="text" id="state" placeholder="Digite a sigla do estado">
+            <button onclick="getWeather()">Obter Previsão</button>
+        </div>
+        <div id="weather-info" class="weather-info">
+            <!-- Aqui será exibida a previsão do tempo -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
